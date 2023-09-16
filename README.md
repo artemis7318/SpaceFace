@@ -30,9 +30,11 @@ If you are a parent, you probably don't want your kids to check out and buy stuf
   - chrome extension: [SteamCode Chrome Extension](https://www.youtube.com/channel/UClLRjv91UloHweZMyxpRPrw) 
 
 ## Mock website (website)
-- **technologies**: 
-- **features**: 
+- **technologies**: HTML, CSS, JavaScript
+- **features**: picture slideshow, button that launches chrome extension
 - **steps**:
-  1. 
+  1. slideshow shows pictures of space and mars to advertise the tour tickets
+  2. user will click buy tickets, which launches the chrome extension 
+  3. after their face is verified, user can continue with the purchase
 - **resources**:
-  -  
+- obrion-nebula: [image link](https://pixabay.com/photos/orion-nebula-emission-nebula-11107/)

@@ -38,4 +38,5 @@ If you are a parent, you probably don't want your kids to check out and buy stuf
   2. user will click buy tickets, which launches the chrome extension 
   3. after their face is verified, user can continue with the purchase
 - **resources**:
-  - obrion-nebula: [image link](https://pixabay.com/photos/orion-nebula-emission-nebula-11107/)
+  - obrion-nebula.jpeg: [image link](https://pixabay.com/photos/orion-nebula-emission-nebula-11107/)
+  - space.jpeg: [image link](https://pixabay.com/illustrations/space-galaxies-mars-stars-terra-1982212/)

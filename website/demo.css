@@ -1,0 +1,308 @@
+/*Reset Box Mode */
+*{
+    box-sizing:border-box
+  }
+  /* Responsive Iamge */
+  img{
+    max-width:100%;
+    height:auto;
+  }
+  
+  body {
+    font-family: 'Eczar', serif;
+    margin:0;
+  }
+  
+  header.primary{
+    background-color: #BBE6FF;
+    font-family: 'Merienda', cursive;
+    text-align:center;
+    color: white;
+    text-shadow: 1px 2px 2px #000000;
+    padding: 40px;
+  }
+  
+  header.primary h1{
+    font-size: 3.5em;
+    margin: 20px 0px 0px;
+  }
+  
+  header.primary h2{
+    font-size: 2em;
+    margin: 20px auto 40px;
+  }
+  
+  footer.primary h6{
+    color: silver;
+  }
+  
+  div.button{
+    font-family: 'Merienda', cursive;
+    text-align:center;
+    color: white;
+    text-shadow: 1px 2px 2px #000000;
+    padding: 40px;
+  }
+  
+  div.button nav{
+    width: 800px;
+    margin: 20px auto;
+  }
+  
+  div.button nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  div.button nav li{
+    list-style-type: none;
+    width: 33%;
+  }
+  
+  div.button nav a{
+    color: darkblue;
+    text-decoration: none;
+    background-color: #FA9CCA;
+    background-color: rgba(250, 156, 202, 0.7);
+    border-radius: 6px;
+    padding: 8px 16px;
+  }
+  
+  div.button nav ul li a:hover{background-color: rgba(250, 156, 202, 0.9);}
+  
+  body{
+    background-color: #001128;
+  }
+  
+  
+  aside{
+    background-color: #97b6ed;
+    color: #000000;
+    padding: 40px;
+  }
+  
+  aside.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  aside article{
+    width:450px;
+  }
+  
+  aside article h1{
+    font-size:1.5em;
+  }
+  
+  aside a{
+    color:white;
+  }
+  
+  /*-------slideshow-------*/
+  .gallery {
+      max-width: 960px;
+      margin: 40px auto;
+      border: 1px solid lightgrey;
+      height: 560px;
+      overflow: hidden;
+      border-radius: 4px;
+    padding:0;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2)
+  }
+  .gallery img {
+      margin: 30px;
+  }
+  
+  .first figure {
+      width: 100%;
+      margin: 0;
+      height: 270px;
+      overflow: hidden;
+      border-radius: 4px;
+    padding:0;
+  }
+  .first figure img {
+      margin: 20px;
+  }
+  
+  .second figure {
+      width: 100%;
+      margin: auto;
+      height: 270px;
+      overflow: hidden;
+      border-radius: 4px;
+    padding:0;
+  }
+  .second figure img {
+      margin: 20px;
+    max-width: 100%;
+  }
+  
+  .third figure {
+      width: 100%;
+      margin: auto;
+      height: 270px;
+      overflow: hidden;
+      border-radius: 4px;
+    padding:0;
+  }
+  .third figure img {
+      margin: 30px;
+    max-width: 100%;
+  }
+  
+  .gallery {
+      width: 960px;
+      margin: 40px auto;
+      height: 560px;
+      overflow: hidden;
+      border-radius: 4px;
+    padding:0;
+  }
+  .gallery img {
+      margin: 30px;
+    width: 94%;
+  }
+  
+  @media screen and (max-width: 2048px){
+    .gallery {
+      width: 70%;
+    }
+    .gallery img {
+      width: 94%;
+      height: 89%;
+    }
+  }
+  
+  @media screen and (max-width: 995px){
+     .gallery {
+      width: 700px;
+      height: 370px;
+    }
+    .gallery img{
+      width: 94%
+    }
+    #content {
+      width: 100%;
+    }
+     section#content div.first article  {
+      width: 180px;
+    }
+    section#content div.first {
+      width: 600px;
+    }
+      section#content div.second article  {
+      width: 170px;
+    }
+    section#content div.second {
+      width: 600px;
+    }
+      section#content div.third article  {
+      width: 170px;
+    }
+    section#content div.third {
+      width: 600px;
+    }
+    div.button nav {
+      width: 100%;
+    }
+    aside.container {
+      width: 600px;
+    }
+    aside article {
+      width:250px;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .gallery {
+      width: 95%
+    }
+    .gallery img {
+      width: 92%
+    }
+  }
+  
+  @media screen and (max-width: 800px){
+    .gallery{
+      width: 95%
+    }
+    .gallery img{
+      width: 93%
+    }
+  }
+  
+  @media screen and (max-width: 2000px){
+    .gallery{
+      width: 90%
+    }
+    .gallery img{
+      width: 92%
+    }
+  }
+  
+  @media screen and (max-width: 700px){
+    div.button nav ul {
+      display:block;
+    }
+    div.button nav ul li {
+      width: 100%;
+      margin: 0 0 30px;
+    }
+    .gallery {
+      width: 95%;
+      height: 380px;
+    }
+  .gallery img {
+      width: 94%;
+      height: 300px;
+    }
+    section#content div.first article  {
+      width: 95%;
+      margin: 0 auto;
+    }
+    section#content div.first {
+      width: 100%;
+      display: flex;
+    }
+      section#content div.second article  {
+      width: 95%;
+      margin: 0 auto;
+    }
+    section#content div.second {
+      width: 100%;
+      display: flex;
+    }
+      section#content div.third article  {
+      width: 95%;
+      margin: 0 auto;
+    }
+    section#content div.third {
+      width: 33%;
+      display: flex;
+    }
+    #content article img{
+      width: 100%;
+    }
+    div.button nav {
+      width: 95%;
+    }
+    aside.container {
+      width: 100%;
+      display: block;
+    }
+    aside article {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 375px){
+    .gallery{
+      width: 95%
+    }
+    .gallery img{
+      width: 94%
+    }
+  }

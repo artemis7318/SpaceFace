@@ -18,8 +18,9 @@ If you are a parent, you probably don't want your kids to check out and buy stuf
   - space helmet: [image link](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F1205932-astronaut-helmet&psig=AOvVaw2F2hOIEZSc3UDFCzbROogi&ust=1694963955772000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCIiG3_W2r4EDFQAAAAAdAAAAABAQ)
 
 ## Chrome extension (chrome extension)
-- **technologies**: 
-- **features**: 
+- **technologies**: HTML, CSS, JavaScript
+- **features**: buttons accept(green) -> successfully continue to purchase, reject(red) -> invader link, upload known image(user to upload image for facial recognition)
+  **Other features**: highlight a word + right click + search word on Amazon
 - **steps**:
   1. open Google Chrome (works better on non-dark mode) & manage Extensions
   2. toggle on Developer Mode & click on "Load Unpacked"
@@ -37,4 +38,4 @@ If you are a parent, you probably don't want your kids to check out and buy stuf
   2. user will click buy tickets, which launches the chrome extension 
   3. after their face is verified, user can continue with the purchase
 - **resources**:
-- obrion-nebula: [image link](https://pixabay.com/photos/orion-nebula-emission-nebula-11107/)
+  - obrion-nebula: [image link](https://pixabay.com/photos/orion-nebula-emission-nebula-11107/)

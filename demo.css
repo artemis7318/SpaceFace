@@ -141,19 +141,6 @@
     max-width: 100%;
   }
   
-  .third figure {
-      width: 100%;
-      margin: auto;
-      height: 270px;
-      overflow: hidden;
-      border-radius: 4px;
-    padding:0;
-  }
-  .third figure img {
-      margin: 30px;
-    max-width: 100%;
-  }
-  
   .gallery {
       width: 960px;
       margin: 40px auto;

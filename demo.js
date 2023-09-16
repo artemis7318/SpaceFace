@@ -21,11 +21,3 @@ $(document).ready(function() {
 	});
 
 });
-
-$(document).ready(function() {
-
-    $('.third figure').cycle({
-		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-	});
-
-});

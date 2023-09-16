@@ -3,12 +3,7 @@
 
 If you are a parent, you probably don't want your kids to check out and buy stuff on Amazon without your consent. But, you still want them to choose what they would like on Amazon. This is a Chrome browser extension that doesn't let anyone proceed to the checkout page until a known face (ideally, parent's face) is recognized via the web camera. Also, because HackCMU's theme this year is space, we added space helmets on everyone's faces identified on the web camera when scanning for known people :) Here are each of the components of the project in detail:
 
-## Chrome extension
-uses [SteamCode Chrome Extension](https://www.youtube.com/channel/UClLRjv91UloHweZMyxpRPrw) tutorial template to start 
-
-## Mock website
-
-## Facial Recognition
+## Facial Recognition (cv)
 - **technologies**: Python, OpenCV, face_recognition library
 - **features**: facial recognition, open webcam for set period of time, space helmet filter
 - **steps**:
@@ -21,3 +16,19 @@ uses [SteamCode Chrome Extension](https://www.youtube.com/channel/UClLRjv91UloHw
   - facial recognition: [https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam.py](https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam.py)
   - filter on faces: [https://github.com/TithiSreemany/Snapchat-Filter-using-OpenCV/blob/main/Snapchat%20Filter%20with%20OpenCV.ipynb](https://github.com/TithiSreemany/Snapchat-Filter-using-OpenCV/blob/main/Snapchat%20Filter%20with%20OpenCV.ipynb)
   - space helmet: [image link](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F1205932-astronaut-helmet&psig=AOvVaw2F2hOIEZSc3UDFCzbROogi&ust=1694963955772000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCIiG3_W2r4EDFQAAAAAdAAAAABAQ)
+
+## Chrome extension (chrome extension)
+- **technologies**: 
+- **features**: 
+- **steps**:
+  1. 
+- **resources**:
+  - chrome extension: [SteamCode Chrome Extension](https://www.youtube.com/channel/UClLRjv91UloHweZMyxpRPrw) 
+
+## Mock website (website)
+- **technologies**: 
+- **features**: 
+- **steps**:
+  1. 
+- **resources**:
+  -  

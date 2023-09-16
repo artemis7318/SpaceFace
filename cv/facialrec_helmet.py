@@ -2,6 +2,7 @@ import face_recognition
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import time
 
 face_cascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
@@ -25,7 +26,10 @@ known_face_names = [
     "Joe Biden"
 ]
 
-while True:
+capture_duration = 15
+
+start_time = time.time()
+while( int(time.time() - start_time) < capture_duration ):
     # Grab a single frame of video
     ret, frame = video_capture.read()
 
@@ -70,8 +74,8 @@ while True:
         # face=face_cascade.detectMultiScale(frame)[0]
 
         f_x, f_y,f_w, f_h = left, top, right, bottom
-        padding = 150
-        cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
+        # padding = 150
+        # cv2.rectangle(frame, (left, top), (right, bottom), (0, 0, 255), 2)
 
 # print(f_x, f_y,f_w, f_h)
 # plt.plot(f_x + (f_w // 2),f_y,'ro')

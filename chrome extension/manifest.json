@@ -6,14 +6,24 @@
     "background": {
         "service_worker": "background.js"
     }, 
-    "permissions": ["storage", "activeTab", "contextMenus"], 
+    "permissions": ["storage", "activeTab", "contextMenus", 
+                    "declarativeNetRequest", "declarativeNetRequestFeedback", 
+                    "scripting"], 
     "action": {
         "default_popup": "popup.html"
     }, 
     "content_scripts": [
         {
-            "matches": ["https://*.google.com/*"],
+            "matches": ["https://*.google.com/*", "https://*.amazon.com/*"],
             "js": ["content.js"]
         }
-    ]
+    ], 
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "ruleset1", 
+            "enabled": true,
+            "path": "rule1.json"
+        }]
+    }
+
   }

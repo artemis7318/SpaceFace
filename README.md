@@ -21,7 +21,11 @@ If you are a parent, you probably don't want your kids to check out and buy stuf
 - **technologies**: 
 - **features**: 
 - **steps**:
-  1. 
+  1. open Google Chrome (works better on non-dark mode) & manage Extensions
+  2. toggle on Developer Mode & click on "Load Unpacked"
+  3. upload the "chrome-extension" folder
+  4. once uploaded, go to the Extension icon at the top of the browser
+  5. click on "View popup"
 - **resources**:
   - chrome extension: [SteamCode Chrome Extension](https://www.youtube.com/channel/UClLRjv91UloHweZMyxpRPrw) 
 
